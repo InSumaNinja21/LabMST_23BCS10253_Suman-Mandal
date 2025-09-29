@@ -11,7 +11,7 @@ public class mst {
         if(ini<=0 || depo<=0 || wd<=0)
             System.out.println("Invalid input");
         balance= ini+depo;
-        if(withdraw>balance)
+        if(wd>balance)
             System.out.println("Insufficient balance");
         else{
             balance-=wd;
@@ -19,3 +19,4 @@ public class mst {
         }
     }
 }
+
